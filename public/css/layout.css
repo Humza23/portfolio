@@ -233,7 +233,7 @@ ul#nav li.current a {
   position: relative;
   width: 120px;
   height: 120px;
-  border-radius: 100%;
+  border-radius: 15%;
 }
 #about .contact-details {
   width: 41.66667%;
@@ -460,7 +460,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+  background:#303030;
   padding-top: 46px;
   padding-bottom: 24px;
 }
@@ -470,7 +470,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: black;
+  color: #fff;
 }
 
 /* Portfolio Content */
@@ -927,8 +927,9 @@ call-to-action .button {
   margin-bottom: 6px;
 }
 #contact p.lead {
-  font: 18px/36px "opensans-light", sans-serif;
+  font: 18px/36px "opensans-bold", sans-serif;
   padding-right: 3%;
+  color: #ebeeee;
 }
 #contact .header-col {
   padding-top: 6px;
