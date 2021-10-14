@@ -49,13 +49,6 @@ class Resume extends Component {
           </div>
         );
       });
-      var skills = this.props.data.skills.map(function (skills,idx) {
-        return (
-          <li key={idx}>
-            <em>{skills.name}</em>
-          </li>
-        );
-      });
     }
 
     return (
