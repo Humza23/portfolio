@@ -50,10 +50,8 @@ class Resume extends Component {
         );
       });
       var skills = this.props.data.skills.map(function (skills,idx) {
-        // var className = "bar-expand " + skills.name.toLowerCase();
         return (
           <li key={idx}>
-            {/* <span style={{ width: skills.level }} className={className}></span> */}
             <em>{skills.name}</em>
           </li>
         );
