@@ -12,9 +12,9 @@ import logoGit from '../skillsImgs/logoGit.svg'
 class Resume extends Component {
   render() {
     if (this.props.data) {
-      var education = this.props.data.education.map(function (education) {
+      var education = this.props.data.education.map(function (education,idx) {
         return (
-          <div key={education.school}>
+          <div key={idx}>
             <h3>{education.school}</h3>
             <p className="info">
               {education.degree} <span>&bull;</span>
@@ -32,9 +32,9 @@ class Resume extends Component {
           </div>
         );
       });
-      var work = this.props.data.work.map(function (work) {
+      var work = this.props.data.work.map(function (work,idx) {
         return (
-          <div key={work.company}>
+          <div key={idx}>
             <h3>{work.company}</h3>
             <p className="info">
               {work.title}
@@ -49,10 +49,10 @@ class Resume extends Component {
           </div>
         );
       });
-      var skills = this.props.data.skills.map(function (skills) {
+      var skills = this.props.data.skills.map(function (skills,idx) {
         // var className = "bar-expand " + skills.name.toLowerCase();
         return (
-          <li key={skills.name}>
+          <li key={idx}>
             {/* <span style={{ width: skills.level }} className={className}></span> */}
             <em>{skills.name}</em>
           </li>
