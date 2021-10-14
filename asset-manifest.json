@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bab0b925.chunk.css",
+    "main.js": "/portfolio/static/js/main.c9adc250.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c9adc250.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.54592a47.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.54592a47.js.map",
+    "static/js/2.d23d1d15.chunk.js": "/portfolio/static/js/2.d23d1d15.chunk.js",
+    "static/js/2.d23d1d15.chunk.js.map": "/portfolio/static/js/2.d23d1d15.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/portfolio/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.d23d1d15.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d23d1d15.chunk.js.LICENSE.txt",
+    "static/media/2021HumzaResume.084e470b.pdf": "/portfolio/static/media/2021HumzaResume.084e470b.pdf",
+    "static/media/logoCSS.1d023123.svg": "/portfolio/static/media/logoCSS.1d023123.svg",
+    "static/media/logoExpress.85a49c64.svg": "/portfolio/static/media/logoExpress.85a49c64.svg",
+    "static/media/logoGit.6d27b5e0.svg": "/portfolio/static/media/logoGit.6d27b5e0.svg",
+    "static/media/logoHTML.ed5a6632.svg": "/portfolio/static/media/logoHTML.ed5a6632.svg",
+    "static/media/logoJS.4c1b5332.svg": "/portfolio/static/media/logoJS.4c1b5332.svg",
+    "static/media/logoNode.8629b14e.svg": "/portfolio/static/media/logoNode.8629b14e.svg",
+    "static/media/logoPostgreSQL.7f69300e.svg": "/portfolio/static/media/logoPostgreSQL.7f69300e.svg",
+    "static/media/logoReact.7c837586.svg": "/portfolio/static/media/logoReact.7c837586.svg",
+    "static/media/logoSQLite.237e776b.svg": "/portfolio/static/media/logoSQLite.237e776b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54592a47.js",
+    "static/js/2.d23d1d15.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.c9adc250.chunk.js"
+  ]
+}
