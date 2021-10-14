@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
-import swal from 'sweetalert'
+import swal from "sweetalert";
 
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-    };
+    this.state = {};
   }
 
   sendEmail = (e) => {

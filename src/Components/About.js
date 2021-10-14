@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import resumepdf from '../assets/2021HumzaResume.pdf'
+import resumepdf from "../assets/2021HumzaResume.pdf";
 
-import profilepic from '../images/profilepic.jpg'
-
+import profilepic from "../images/profilepic.jpg";
 
 class About extends Component {
   render() {
@@ -45,7 +44,11 @@ class About extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href={resumepdf} className="button" download="Humza Malik Resume">
+                  <a
+                    href={resumepdf}
+                    className="button"
+                    download="Humza Malik Resume"
+                  >
                     <i className="fa fa-download"></i>Download Resume
                   </a>
                 </p>

@@ -19,125 +19,131 @@ const resumeData = {
     phone: "917-856-8055",
     address: {
       city: "Brooklyn",
-      state: "New York"
+      state: "New York",
     },
     social: [
       {
         name: "facebook",
         url: "http://facebook.com/",
-        className: "fa fa-facebook"
+        className: "fa fa-facebook",
       },
       {
         name: "twitter",
         url: "http://twitter.com",
-        className: "fa fa-twitter"
+        className: "fa fa-twitter",
       },
       {
         name: "linkedin",
         url: "https://www.linkedin.com/in/humzamalik/",
-        className: "fa fa-linkedin"
+        className: "fa fa-linkedin",
       },
       {
         name: "instagram",
         url: "http://instagram.com/",
-        className: "fa fa-instagram"
+        className: "fa fa-instagram",
       },
       {
         name: "github",
         url: "http://github.com/Humza23",
-        className: "fa fa-github"
-      }
-    ]
+        className: "fa fa-github",
+      },
+    ],
   },
   resume: {
-    skillmessage: "Here you can create a short write-up of your skills to show off to employers",
+    skillmessage:
+      "Here you can create a short write-up of your skills to show off to employers",
     education: [
       {
         school: "Lambda School",
         degree: "Full Stack Web Development",
-        graduated:  "August 2021",
-        description1: "Intensive Full Stack Web Development program with a focus on HTML, CSS, JavaScript, React, Node, Express, and SQL"
+        graduated: "August 2021",
+        description1:
+          "Intensive Full Stack Web Development program with a focus on HTML, CSS, JavaScript, React, Node, Express, and SQL",
       },
       {
         school: "Brooklyn College",
         degree: "Bachelors of Arts in Childhood Education",
-        graduated:  "May 2020",
-        description1: ''
-      }
+        graduated: "May 2020",
+        description1: "",
+      },
     ],
     work: [
       {
         company: "New York City Department of Education",
-        title: "Paraprofessional" ,
+        title: "Paraprofessional",
         years: "February 2020 - Present",
-        description1: "Engaged one-on-one with students with behavioral problems in both classroom and extracurricular settings",
-        description2: "Actively developed and executed individualized learning plans and behavior plans for students",
-        description3: "Conducted small group and individual classroom activities based on differentiated learning needs to reinforce concepts presented by teachers",
-        description4: "Sustained transparent communication with parents on student behavior and academic progress"
+        description1:
+          "Engaged one-on-one with students with behavioral problems in both classroom and extracurricular settings",
+        description2:
+          "Actively developed and executed individualized learning plans and behavior plans for students",
+        description3:
+          "Conducted small group and individual classroom activities based on differentiated learning needs to reinforce concepts presented by teachers",
+        description4:
+          "Sustained transparent communication with parents on student behavior and academic progress",
       },
       {
         company: "New York City Department of Education",
-        title: "Student Teacher" ,
+        title: "Student Teacher",
         years: "September 2019 - February 2020",
-        description1: "Prepared and executed differentiated lesson plans for a classroom of 27 students",
-        description2: "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
-        description3: "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
-        description4: "Established positive relationships with students, parents, teachers, and school administrators"
-        
-      }
+        description1:
+          "Prepared and executed differentiated lesson plans for a classroom of 27 students",
+        description2:
+          "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
+        description3:
+          "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
+        description4:
+          "Established positive relationships with students, parents, teachers, and school administrators",
+      },
     ],
   },
   portfolio: {
     projects: [
       {
-        title: 'Canadian Wanderlust',
-        category: 'My Travel Blog for my post-university travels',
-        image: 'fury-fighting-gear.jpg',
-        url: 'https://www.canadianwanderlust.com'
+        title: "Canadian Wanderlust",
+        category: "My Travel Blog for my post-university travels",
+        image: "fury-fighting-gear.jpg",
+        url: "https://www.canadianwanderlust.com",
       },
       {
-        title: 'Fury Fighting Gear',
-        category: '(offline now) A fighting gear company I started',
-        image: 'fury-fighting-gear.jpg',
-        url: 'http://www.timbakerdev.com'
+        title: "Fury Fighting Gear",
+        category: "(offline now) A fighting gear company I started",
+        image: "fury-fighting-gear.jpg",
+        url: "http://www.timbakerdev.com",
       },
       {
-        title: 'Original Thai Food',
-        category: 'Website I built for a restaurant I like in Thailand',
-        image: 'original-thai-food.jpg',
-        url: 'http://www.timbakerdev.com/originalthaifood.github.io'
+        title: "Original Thai Food",
+        category: "Website I built for a restaurant I like in Thailand",
+        image: "original-thai-food.jpg",
+        url: "http://www.timbakerdev.com/originalthaifood.github.io",
       },
       {
-        title: 'Resume Website',
-        category: 'A React based resume website template',
-        image: 'resume-website.jpg',
-        url: 'http://www.timbakerdev.com'
+        title: "Resume Website",
+        category: "A React based resume website template",
+        image: "resume-website.jpg",
+        url: "http://www.timbakerdev.com",
       },
       {
-        title: 'Smirkspace',
-        category: '(MVP Only) A React and Meteor based chat University project.',
-        image: 'smirkspace.jpg',
-        url: 'http://www.smirkspace.com'
-      }
-    ]
-  }
-}
-
-
-
-
+        title: "Smirkspace",
+        category:
+          "(MVP Only) A React and Meteor based chat University project.",
+        image: "smirkspace.jpg",
+        url: "http://www.smirkspace.com",
+      },
+    ],
+  },
+};
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      resumeData: '',
+      resumeData: "",
     };
   }
 
   componentDidMount() {
     this.setState({
-      resumeData: resumeData
+      resumeData: resumeData,
     });
   }
 
@@ -154,6 +160,5 @@ class App extends Component {
     );
   }
 }
-
 
 export default App;
