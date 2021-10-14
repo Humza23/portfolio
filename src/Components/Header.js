@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 class Header extends Component {
   render() {
-    console.log('header', this.props.data.name);
     if (this.props.data) {
       var networks = this.props.data.social.map(function (network) {
         return (
@@ -56,9 +55,9 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">Humza Malik</h1>
+            <h1 className="responsive-headline">{this.props.data.name}</h1>
             <h3>
-              I'm a New York based <span>Full Stack Web Developer</span>. insert my description here.
+              I'm a {this.props.data.address.state} based <span>{this.props.data.occupation}</span>. {this.props.data.description}.
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

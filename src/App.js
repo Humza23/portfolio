@@ -13,7 +13,7 @@ const resumeData = {
   main: {
     name: "Humza Malik",
     occupation: "Full Stack Web Developer",
-    description: "my description",
+    description: "my description will go here!!",
     image: "profilepic.jpg",
     bio: "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     contactmessage: "Contact Me",
