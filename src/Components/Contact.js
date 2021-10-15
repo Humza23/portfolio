@@ -1,14 +1,36 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import swal from "sweetalert";
 
-class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+import schema from '../schema/schema'
+import * as yup from 'yup';
 
-  sendEmail = (e) => {
+const initialFormValues = {
+  contactName: "",
+  contactEmail: "",
+  contactSubject: "",
+  contactMessage: "",
+}
+
+const Contact = (props) => {
+  var name = props.data.name;
+  var city = props.data.address.city;
+  var state = props.data.address.state;
+  var phone = props.data.phone;
+  var message = props.data.contactmessage;
+
+  const [formValues, setFormValues] = useState(initialFormValues);
+
+  const [errors, setErrors] = useState({
+    contactName: "Name is required" ,
+    contactEmail: "Email is required",
+    contactSubject: "Subject is required",
+    contactMessage: "Message is required",
+  })
+
+  const [buttonDisabled, setButtonDisabled] = useState(true)
+
+  const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
@@ -33,16 +55,34 @@ class Contact extends Component {
       icon: "success",
       button: "Done!",
     });
+    setFormValues(initialFormValues)
   };
 
-  render() {
-    if (this.props.data) {
-      var name = this.props.data.name;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var phone = this.props.data.phone;
-      var message = this.props.data.contactmessage;
-    }
+  const handleChange = (e) => {
+    const { name, value } = e.target
+        
+        yup
+        .reach(schema, name)
+        .validate(value)
+        .then(valid => {
+          setErrors({
+            ...errors, [name]: ""
+          });
+          setButtonDisabled(false)
+        })
+        .catch(err => {
+          setErrors({
+            ...errors, [name]: err.errors[0]
+          });
+        });
+        setFormValues({ ...formValues, [name]: value });
+  };
+      
+      useEffect(() => {
+        schema.isValid(formValues).then(valid => {
+          setButtonDisabled(!valid);
+        });
+      }, [formValues])
 
     return (
       <section id="contact">
@@ -60,26 +100,29 @@ class Contact extends Component {
 
         <div className="row">
           <div className="eight columns">
-            <form onSubmit={this.sendEmail} id="contactForm" name="contactForm">
+            <form onSubmit={sendEmail} id="contactForm" name="contactForm">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">
-                    Name <span className="required">*</span>
+                    
+                    Name <span className="required">{errors.contactName && '*'}</span>
                   </label>
+
+
                   <input
                     type="text"
                     defaultValue=""
                     size="35"
                     id="contactName"
                     name="contactName"
-                    onChange={this.handleChange}
+                    onChange={handleChange}
                     style={{ width: "65%" }}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="contactEmail">
-                    Email <span className="required">*</span>
+                    Email <br /> <span className="required">{errors.contactEmail && `${errors.contactEmail}*`}</span>
                   </label>
                   <input
                     type="text"
@@ -87,39 +130,42 @@ class Contact extends Component {
                     size="35"
                     id="contactEmail"
                     name="contactEmail"
-                    onChange={this.handleChange}
+                    onChange={handleChange}
                     style={{ width: "65%" }}
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="contactSubject">Subject</label>
+                  <label htmlFor="contactSubject">
+                    Subject <span className="required">{errors.contactSubject && '*'}</span>
+                    </label>
                   <input
                     type="text"
                     defaultValue=""
                     size="35"
                     id="contactSubject"
                     name="contactSubject"
-                    onChange={this.handleChange}
+                    onChange={handleChange}
                     style={{ width: "65%" }}
                   />
                 </div>
 
                 <div>
                   <label htmlFor="contactMessage">
-                    Message <span className="required">*</span>
+                    Message <br /> <span className="required">{errors.contactMessage && `${errors.contactMessage}*`}</span>
                   </label>
                   <textarea
                     cols="50"
                     rows="10"
                     id="contactMessage"
                     name="contactMessage"
+                    onChange={handleChange}
                     style={{ resize: "none", width: "65%", height: "auto" }}
                   ></textarea>
                 </div>
 
                 <div>
-                  <button className="submit" onSubmit={this.sendEmail}>
+                  <button className="submit" disabled={buttonDisabled} onSubmit={sendEmail}>
                     Submit
                   </button>
                 </div>
@@ -142,7 +188,6 @@ class Contact extends Component {
         </div>
       </section>
     );
-  }
 }
 
 export default Contact;
