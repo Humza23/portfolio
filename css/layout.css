@@ -326,6 +326,7 @@ ul#nav li.current a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 .bars {
