@@ -12,7 +12,7 @@ const resumeData = {
     name: "Humza Malik",
     occupation: "Full Stack Web Developer",
     image: "profilepic.jpg",
-    bio: "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    bio: "I am a Full Stack Web Developer and recent Lambda School graduate. After making a career change from being a teacher, I began learning to code in early 2021. Although different fields, I have used my prior career’s learning experiences to guide me in my path as a Web Developer. During this time, I have developed strong skills in multiple languages, frameworks, and libraries. As I continue to develop my skills, I am looking forward to my first opportunity to provide value and gain additional knowledge in this industry.",
     contactmessage: "Contact Me",
     email: "humza718@gmail.com",
     phone: "917-856-8055",
