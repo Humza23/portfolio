@@ -2,30 +2,33 @@ import React, { Component } from "react";
 import projectHRFAsylum from "../images/projectHRFAsylum.png";
 import projectWeather from "../images/projectWeather.png";
 import projectBeachResort from "../images/projectBeachResort.png";
-import projectCryptoTracker from '../images/projectCryptoTracker.png'
-import projectEcommercePlants from '../images/projectEcommercePlants.png'
-import projectBusinessPageTemplate from '../images/projectBusinessPageTemplate.png'
-import projectEcommerceRouter from '../images/projectEcommerceRouter.png'
-import projectTaskTracker from '../images/projectTaskTracker.png'
+import projectCryptoTracker from "../images/projectCryptoTracker.png";
+import projectEcommercePlants from "../images/projectEcommercePlants.png";
+import projectBusinessPageTemplate from "../images/projectBusinessPageTemplate.png";
+import projectEcommerceRouter from "../images/projectEcommerceRouter.png";
+import projectTaskTracker from "../images/projectTaskTracker.png";
 
 const imgArr = [
   {
     image: projectHRFAsylum,
     title: "Human Rights First Asylum",
     url: "https://www.humanrightsfirst.org/asylum",
-    description: "Application for lawyers to view data on previous asylum case judgments!",
+    description:
+      "Application for lawyers to view data on previous asylum case judgments!",
   },
   {
     image: projectWeather,
     title: "RealTime Weather",
     url: "https://humza23.github.io/weather/",
-    description: "View real-time weather in current location or location of choice!",
+    description:
+      "View real-time weather in current location or location of choice!",
   },
   {
     image: projectBeachResort,
     title: "Beach Resort",
     url: "https://humza23.github.io/resort/",
-    description: "View resort rooms with filter functionalities to accommodate your stay!",
+    description:
+      "View resort rooms with filter functionalities to accommodate your stay!",
   },
   {
     image: projectCryptoTracker,
@@ -37,7 +40,8 @@ const imgArr = [
     image: projectEcommercePlants,
     title: "E-Commerce",
     url: "https://humza23.github.io/e-commerce-plants/",
-    description: "Mock E-Commerce Application with add to cart and checkout features!",
+    description:
+      "Mock E-Commerce Application with add to cart and checkout features!",
   },
   {
     image: projectBusinessPageTemplate,
