@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5facb584.chunk.css",
-    "main.js": "/portfolio/static/js/main.99ef1dc0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.99ef1dc0.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.fa3ab5e7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fa3ab5e7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.44645aae.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.44645aae.js.map",
-    "static/js/2.8be11442.chunk.js": "/portfolio/static/js/2.8be11442.chunk.js",
-    "static/js/2.8be11442.chunk.js.map": "/portfolio/static/js/2.8be11442.chunk.js.map",
+    "static/js/2.942ffc6f.chunk.js": "/portfolio/static/js/2.942ffc6f.chunk.js",
+    "static/js/2.942ffc6f.chunk.js.map": "/portfolio/static/js/2.942ffc6f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.cf750b7cbf963991b641020ea24cd2be.js": "/portfolio/precache-manifest.cf750b7cbf963991b641020ea24cd2be.js",
+    "precache-manifest.41f41fc987e82a545d7c3178ef1cf3bb.js": "/portfolio/precache-manifest.41f41fc987e82a545d7c3178ef1cf3bb.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.5facb584.chunk.css.map": "/portfolio/static/css/main.5facb584.chunk.css.map",
-    "static/js/2.8be11442.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8be11442.chunk.js.LICENSE.txt",
+    "static/js/2.942ffc6f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.942ffc6f.chunk.js.LICENSE.txt",
     "static/media/2021HumzaResume.pdf": "/portfolio/static/media/2021HumzaResume.6c792748.pdf",
     "static/media/logoCSS.svg": "/portfolio/static/media/logoCSS.3359119d.svg",
     "static/media/logoExpress.svg": "/portfolio/static/media/logoExpress.652c9dfb.svg",
@@ -20,6 +20,7 @@
     "static/media/logoJS.svg": "/portfolio/static/media/logoJS.0c1f700d.svg",
     "static/media/logoNode.svg": "/portfolio/static/media/logoNode.4d315923.svg",
     "static/media/logoPostgreSQL.svg": "/portfolio/static/media/logoPostgreSQL.14ade307.svg",
+    "static/media/logoPython.svg": "/portfolio/static/media/logoPython.71374043.svg",
     "static/media/logoReact.svg": "/portfolio/static/media/logoReact.d4eebc6d.svg",
     "static/media/logoSQLite.svg": "/portfolio/static/media/logoSQLite.332417a7.svg",
     "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.11e6b6b3.jpg",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.44645aae.js",
-    "static/js/2.8be11442.chunk.js",
+    "static/js/2.942ffc6f.chunk.js",
     "static/css/main.5facb584.chunk.css",
-    "static/js/main.99ef1dc0.chunk.js"
+    "static/js/main.fa3ab5e7.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35560c83c195fe0c9baa29818642fe75",
+    "revision": "64959b6604ff644e51f58d4be65d103d",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a225aef4d527551b2d00",
+    "revision": "4791c500c0ea5701cb66",
     "url": "/portfolio/static/css/main.5facb584.chunk.css"
   },
   {
-    "revision": "483d6385e12281b4e1d4",
-    "url": "/portfolio/static/js/2.8be11442.chunk.js"
+    "revision": "a28ace8e4f6b34b1af35",
+    "url": "/portfolio/static/js/2.942ffc6f.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/portfolio/static/js/2.8be11442.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.942ffc6f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a225aef4d527551b2d00",
-    "url": "/portfolio/static/js/main.99ef1dc0.chunk.js"
+    "revision": "4791c500c0ea5701cb66",
+    "url": "/portfolio/static/js/main.fa3ab5e7.chunk.js"
   },
   {
     "revision": "d6ca8614ab4df5b1bf68",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "14ade307b848d2654013f9f24c99b807",
     "url": "/portfolio/static/media/logoPostgreSQL.14ade307.svg"
+  },
+  {
+    "revision": "71374043d9b3d9ea7fa09976a747d475",
+    "url": "/portfolio/static/media/logoPython.71374043.svg"
   },
   {
     "revision": "d4eebc6dc7a839b5052f793919082d4d",
