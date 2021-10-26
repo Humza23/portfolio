@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import resumepdf from "../assets/2021HumzaResume.pdf";
+import resumepdf from "../assets/HumzaMalikResume.pdf";
 
 import profilepic from "../images/profilepic.jpg";
 
