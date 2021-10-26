@@ -8,6 +8,7 @@ import logoPostgreSQL from "../skillsImgs/logoPostgreSQL.svg";
 import logoSQLite from "../skillsImgs/logoSQLite.svg";
 import logoJS from "../skillsImgs/logoJS.svg";
 import logoGit from "../skillsImgs/logoGit.svg";
+import logoPython from '../skillsImgs/logoPython.svg'
 
 class Resume extends Component {
   render() {
@@ -83,23 +84,29 @@ class Resume extends Component {
             <div className="skillsImages">
               <img
                 className="logoImages"
+                src={logoHTML}
+                alt="HTML"
+                title="HTML"
+              />
+              <img className="logoImages" src={logoCSS} alt="CSS" title="CSS" />
+                <img
+                  className="logoImages"
+                  src={logoJS}
+                  alt="JavaScript"
+                  title="JavaScript"
+                />
+              <img
+                className="logoImages"
                 src={logoReact}
                 alt="React"
                 title="React"
               />
               <img
                 className="logoImages"
-                src={logoJS}
-                alt="JavaScript"
-                title="JavaScript"
+                src={logoPython}
+                alt="Python"
+                title="Python"
               />
-              <img
-                className="logoImages"
-                src={logoHTML}
-                alt="HTML"
-                title="HTML"
-              />
-              <img className="logoImages" src={logoCSS} alt="CSS" title="CSS" />
               <img
                 className="logoImages"
                 src={logoNode}
