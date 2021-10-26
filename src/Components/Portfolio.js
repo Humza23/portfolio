@@ -1,39 +1,60 @@
 import React, { Component } from "react";
-import img1 from "../images/project1.jpg";
-import img2 from "../images/project2.jpg";
-import img3 from "../images/project3.jpg";
-import img4 from "../images/project4.jpg";
-import img5 from "../images/project5.jpg";
+import projectHRFAsylum from "../images/projectHRFAsylum.png";
+import projectWeather from "../images/projectWeather.png";
+import projectBeachResort from "../images/projectBeachResort.png";
+import projectCryptoTracker from '../images/projectCryptoTracker.png'
+import projectEcommercePlants from '../images/projectEcommercePlants.png'
+import projectBusinessPageTemplate from '../images/projectBusinessPageTemplate.png'
+import projectEcommerceRouter from '../images/projectEcommerceRouter.png'
+import projectTaskTracker from '../images/projectTaskTracker.png'
 
 const imgArr = [
   {
-    image: img1,
-    title: "title",
-    url: "google.com",
+    image: projectHRFAsylum,
+    title: "Human Rights First Asylum",
+    url: "https://www.humanrightsfirst.org/asylum",
     description: "description!",
   },
   {
-    image: img2,
-    title: "title",
-    url: "google.com",
+    image: projectWeather,
+    title: "RealTime Weather",
+    url: "https://humza23.github.io/weather/",
     description: "description!",
   },
   {
-    image: img3,
-    title: "title",
-    url: "google.com",
+    image: projectBeachResort,
+    title: "Beach Resort",
+    url: "https://humza23.github.io/resort/",
     description: "description!",
   },
   {
-    image: img4,
-    title: "title",
-    url: "google.com",
+    image: projectCryptoTracker,
+    title: "Crypto Tracker",
+    url: "https://humza23.github.io/crypto-tracker/",
+    description: "Track Crypto prices with dark mode!",
+  },
+  {
+    image: projectEcommercePlants,
+    title: "E-Commerce Mock",
+    url: "https://humza23.github.io/e-commerce-plants/",
     description: "description!",
   },
   {
-    image: img5,
-    title: "title",
-    url: "google.com",
+    image: projectBusinessPageTemplate,
+    title: "Business Page Template",
+    url: "https://humza23.github.io/business-page-template/",
+    description: "description!",
+  },
+  {
+    image: projectTaskTracker,
+    title: "Task Manager",
+    url: "https://humza23.github.io/task-tracker/",
+    description: "description!",
+  },
+  {
+    image: projectEcommerceRouter,
+    title: "E-Commerce Router Mock",
+    url: "https://humza23.github.io/ecommerce-router/",
     description: "description!",
   },
 ];

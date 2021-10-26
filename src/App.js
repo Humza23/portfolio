@@ -22,29 +22,14 @@ const resumeData = {
     },
     social: [
       {
-        name: "facebook",
-        url: "http://facebook.com/",
-        className: "fa fa-facebook",
-      },
-      {
-        name: "twitter",
-        url: "http://twitter.com",
-        className: "fa fa-twitter",
+        name: "github",
+        url: "http://github.com/Humza23",
+        className: "fa fa-github",
       },
       {
         name: "linkedin",
         url: "https://www.linkedin.com/in/humzamalik/",
         className: "fa fa-linkedin",
-      },
-      {
-        name: "instagram",
-        url: "http://instagram.com/",
-        className: "fa fa-instagram",
-      },
-      {
-        name: "github",
-        url: "http://github.com/Humza23",
-        className: "fa fa-github",
       },
     ],
   },
