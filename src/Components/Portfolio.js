@@ -13,19 +13,19 @@ const imgArr = [
     image: projectHRFAsylum,
     title: "Human Rights First Asylum",
     url: "https://www.humanrightsfirst.org/asylum",
-    description: "description!",
+    description: "Application for lawyers to view data on previous asylum case judgments!",
   },
   {
     image: projectWeather,
     title: "RealTime Weather",
     url: "https://humza23.github.io/weather/",
-    description: "description!",
+    description: "View real-time weather in current location or location of choice!",
   },
   {
     image: projectBeachResort,
     title: "Beach Resort",
     url: "https://humza23.github.io/resort/",
-    description: "description!",
+    description: "View resort rooms with filter functionalities to accommodate your stay!",
   },
   {
     image: projectCryptoTracker,
@@ -35,27 +35,27 @@ const imgArr = [
   },
   {
     image: projectEcommercePlants,
-    title: "E-Commerce Mock",
+    title: "E-Commerce",
     url: "https://humza23.github.io/e-commerce-plants/",
-    description: "description!",
+    description: "Mock E-Commerce Application with add to cart and checkout features!",
   },
   {
     image: projectBusinessPageTemplate,
     title: "Business Page Template",
     url: "https://humza23.github.io/business-page-template/",
-    description: "description!",
+    description: "Use this template to advertise your business!",
   },
   {
     image: projectTaskTracker,
     title: "Task Manager",
     url: "https://humza23.github.io/task-tracker/",
-    description: "description!",
+    description: "A simple application to manage all of your tasks!",
   },
   {
     image: projectEcommerceRouter,
-    title: "E-Commerce Router Mock",
+    title: "E-Commerce Router",
     url: "https://humza23.github.io/ecommerce-router/",
-    description: "description!",
+    description: "Mock E-Commerce Application with react router!",
   },
 ];
 
