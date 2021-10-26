@@ -289,6 +289,7 @@
   #portfolio-wrapper .columns {
     margin-bottom: 40px;
   }
+
   .popup-modal {
     max-width: 85%;
   }
@@ -433,6 +434,15 @@
   }
   header .social li {
     margin: 0 6px;
+  }
+
+  /* portfolio
+   ------------------------------------------------------------------------ */
+
+  .portfolio-item .item-wrap {
+    margin: 0 auto;
+    vertical-align: bottom;
+    width: 70%
   }
 
   /* footer
