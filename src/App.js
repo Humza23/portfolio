@@ -53,24 +53,24 @@ const resumeData = {
     ],
     work: [
       {
-        company: "New York City Department of Education",
-        title: "Paraprofessional",
+        company: "Freelance Developer",
+        title: "Web Developer",
         years: "February 2020 - Present",
         description1:
-          "Engaged one-on-one with students with behavioral problems in both classroom and extracurricular settings",
+          "Collaborated with a team of developers to develop functional user-friendly applications for clients in React.js",
         description2:
-          "Actively developed and executed individualized learning plans and behavior plans for students",
+          "Developed UI/UX strategies including wireframes and mockups for local small businesses",
         description3:
-          "Conducted small group and individual classroom activities based on differentiated learning needs to reinforce concepts presented by teachers",
+          "Communicated with clients to ensure applications met desired specifications and implemented key features",
         description4:
-          "Sustained transparent communication with parents on student behavior and academic progress",
+          "Standardized all applications with a responsive, mobile-first approach and cross-browser compatibility",
       },
       {
         company: "New York City Department of Education",
-        title: "Student Teacher",
-        years: "September 2019 - February 2020",
+        title: "Substitute Teacher",
+        years: "September 2019 - September 2020",
         description1:
-          "Prepared and executed differentiated lesson plans for a classroom of 27 students",
+          "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
         description2:
           "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
         description3:
