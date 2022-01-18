@@ -54,29 +54,29 @@ const resumeData = {
     work: [
       {
         company: "New York City Department of Education",
-        title: "Paraprofessional",
-        years: "February 2020 - Present",
+        title: "Student Teacher",
+        years: "September 2019 - August 2021",
         description1:
-          "Engaged one-on-one with students with behavioral problems in both classroom and extracurricular settings",
+        "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
         description2:
-          "Actively developed and executed individualized learning plans and behavior plans for students",
+        "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
         description3:
-          "Conducted small group and individual activities based on differentiated learning needs to reinforce concepts",
+        "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
         description4:
-          "Sustained transparent communication with parents on student behavior and academic progress",
+        "Established positive relationships with students, parents, teachers, and school administrators",
       },
       {
-        company: "New York City Department of Education",
-        title: "Student Teacher",
-        years: "September 2019 - February 2020",
+        company: "Brooklyn College",
+        title: "Accounts Payable Specialist",
+        years: "January 2016 - March 2019",
         description1:
-          "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
+        "Processed vouchers in PeopleSoft/Oracle Software called CUNYFirst for Tax Levy accounts",
         description2:
-          "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
+        "Ensured payments including invoices and expense reports were processed in a timely and accurate manner",
         description3:
-          "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
+          "Created spreadsheets in Microsoft Excel for 50+ accounts to increase payment efficiency",
         description4:
-          "Established positive relationships with students, parents, teachers, and school administrators",
+          "Communicated with purchasing department and vendor to resolve billing issues and discrepancies",
       },
     ],
   },
