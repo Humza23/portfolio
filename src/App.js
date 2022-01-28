@@ -54,7 +54,7 @@ const resumeData = {
     work: [
       {
         company: "New York City Department of Education",
-        title: "Student Teacher",
+        title: "Teacher",
         years: "September 2019 - August 2021",
         description1:
         "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
