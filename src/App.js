@@ -12,7 +12,7 @@ const resumeData = {
     name: "Humza Malik",
     occupation: "Full Stack Web Developer",
     image: "profilepic.jpg",
-    bio: "I am a Full Stack Web Developer and Bloom Institute of Technology graduate. After making a career change from being a teacher, I began learning to code in early 2020. Although different fields, I have used my prior career’s learning experiences to guide me in my path as a Web Developer. During this time, I have developed strong skills in multiple languages, frameworks, and libraries. As I continue to develop my skills, I am looking forward to my first opportunity to provide value and gain additional knowledge in this industry.",
+    bio: "I am a Full Stack Web Developer and Bloom Institute of Technology graduate. After making a career change from being a teacher, I began to pursue my passion for being a developer. Although different fields, I have used my prior career’s learning experiences to guide me in my path as a developer. During this time, I have developed strong skills in multiple languages, frameworks, and libraries. As I continue to develop my skills, I am looking forward to my first opportunity to provide value and gain additional knowledge in this industry.",
     contactmessage: "Contact Me",
     email: "humza718@gmail.com",
     phone: "917-856-8055",
@@ -55,22 +55,22 @@ const resumeData = {
       {
         company: "New York City Department of Education",
         title: "Teacher",
-        years: "September 2019 - August 2021",
+        years: "September 2019 - June 2021",
         description1:
         "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
         description2:
         "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
         description3:
-        "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
+        "Increased reading and math test scores for all students by 25% over one school year",
         description4:
-        "Established positive relationships with students, parents, teachers, and school administrators",
+        "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
       },
       {
         company: "Brooklyn College",
         title: "Accounts Payable Specialist",
         years: "January 2016 - March 2019",
         description1:
-        "Processed vouchers in PeopleSoft/Oracle Software called CUNYFirst for Tax Levy accounts",
+        "Processed over 100 vouchers weekly in PeopleSoft/Oracle Software for Tax Levy accounts",
         description2:
         "Ensured payments including invoices and expense reports were processed in a timely and accurate manner",
         description3:
