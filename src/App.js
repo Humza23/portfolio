@@ -40,7 +40,7 @@ const resumeData = {
       {
         school: "Bloom Institute of Technology",
         degree: "Full Stack Web Development",
-        graduated: "August 2021",
+        graduated: "August 2020",
         description1:
           "Intensive Full Stack Web Development program with a focus on HTML, CSS, JavaScript, React, Node, Express, and SQL",
       },
@@ -55,7 +55,7 @@ const resumeData = {
       {
         company: "New York City Department of Education",
         title: "Teacher",
-        years: "September 2019 - June 2021",
+        years: "September 2019 - June 2020",
         description1:
         "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
         description2:
