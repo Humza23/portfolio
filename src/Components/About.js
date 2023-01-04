@@ -3,6 +3,7 @@ import resumepdf from "../assets/HumzaMalikResume.pdf";
 
 import profilepic from "../images/profilepic.jpg";
 
+
 class About extends Component {
   render() {
     if (this.props.data) {

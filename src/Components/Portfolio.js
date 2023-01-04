@@ -5,9 +5,7 @@ import projectBeachResort from "../images/projectBeachResort.png";
 import projectCryptoTracker from "../images/projectCryptoTracker.png";
 import projectEcommercePlants from "../images/projectEcommercePlants.png";
 import projectBusinessPageTemplate from "../images/projectBusinessPageTemplate.png";
-import projectEcommerceRouter from "../images/projectEcommerceRouter.png";
-import projectTaskTracker from "../images/projectTaskTracker.png";
-
+ 
 const imgArr = [
   {
     image: projectHRFAsylum,
