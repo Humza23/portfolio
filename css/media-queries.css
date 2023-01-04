@@ -16,10 +16,6 @@
     letter-spacing: -1px;
     margin: 0 auto 12px auto;
   }
-
-  #portfoilo {
-    width: 75%;
-  }
 }
 
 /* screenwidth less than 900px
@@ -46,9 +42,6 @@
   #nav-wrap {
     font: 11px "opensans-bold", sans-serif;
     letter-spacing: 1.5px;
-  }
-  #portfoilo {
-    width: 75%;
   }
 
   /* About Section
