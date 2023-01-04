@@ -49,18 +49,6 @@ const imgArr = [
     url: "https://humza23.github.io/business-page-template/",
     description: "Use this template to advertise your business!",
   },
-  {
-    image: projectTaskTracker,
-    title: "Task Manager",
-    url: "https://humza23.github.io/task-tracker/",
-    description: "A simple application to manage all of your tasks!",
-  },
-  {
-    image: projectEcommerceRouter,
-    title: "E-Commerce Router",
-    url: "https://humza23.github.io/ecommerce-router/",
-    description: "Mock E-Commerce Application with react router!",
-  },
 ];
 
 class Portfolio extends Component {
