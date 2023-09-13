@@ -18,8 +18,7 @@ class Resume extends Component {
           <div key={idx}>
             <h3>{education.school}</h3>
             <p className="info">
-              {education.degree} <span>&bull;</span>
-              <em className="date">{education.graduated}</em>
+              {education.degree}
             </p>
 
             <ul>
@@ -28,6 +27,7 @@ class Resume extends Component {
           </div>
         );
       });
+
       var work = this.props.data.work.map(function (work, idx) {
         return (
           <div key={idx}>
@@ -36,15 +36,16 @@ class Resume extends Component {
               {work.title}
               <span>&bull;</span> <em className="date">{work.years}</em>
             </p>
-            <ul>
+            {/* <ul>
               <li> &bull; {work.description1} </li>
               <li> &bull; {work.description2} </li>
               <li> &bull; {work.description3} </li>
               <li> &bull; {work.description4} </li>
-            </ul>
+            </ul> */}
           </div>
         );
       });
+      
     }
 
     return (

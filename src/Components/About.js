@@ -40,7 +40,7 @@ class About extends Component {
                   <br />
                   <span>{phone}</span>
                   <br />
-                  <a href="mailto:humza718@gmail.com">humza718@gmail.com</a>
+                  <a href="mailto:humza.m97@outlook.com">humza.m97@outlook.com</a>
                 </p>
               </div>
               <div className="columns download">

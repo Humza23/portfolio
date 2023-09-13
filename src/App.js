@@ -10,11 +10,11 @@ import Portfolio from "./Components/Portfolio";
 const resumeData = {
   main: {
     name: "Humza Malik",
-    occupation: "Full Stack Web Developer",
+    occupation: "Software Engineer",
     image: "profilepic.jpg",
-    bio: "I am a Full Stack Web Developer and Bloom Institute of Technology graduate. After making a career change from being a teacher, I began to pursue my passion for being a developer. Although different fields, I have used my prior career’s learning experiences to guide me in my path as a developer. During this time, I have developed strong skills in multiple languages, frameworks, and libraries. As I continue to develop my skills, I am looking forward to my first opportunity to provide value and gain additional knowledge in this industry.",
+    bio: "Highly skilled and results-driven Full Stack Software Engineer with a proven track record of designing, developing, and deploying innovative web applications and systems. Adept at both front-end and back-end development, I bring a holistic approach to software engineering, ensuring seamless user experiences and robust system functionality. With a strong foundation in multiple programming languages, frameworks, and technologies, I excel in creating scalable and efficient solutions that meet and exceed client and end-user expectations.",
     contactmessage: "Contact Me",
-    email: "humza718@gmail.com",
+    email: "humza.m97@outlook.com",
     phone: "917-856-8055",
     address: {
       city: "Brooklyn",
@@ -38,45 +38,43 @@ const resumeData = {
       "Here you can create a short write-up of your skills to show off to employers",
     education: [
       {
-        school: "Bloom Institute of Technology",
-        degree: "Full Stack Web Development",
-        graduated: "August 2020",
-        description1:
-          "Intensive Full Stack Web Development program with a focus on HTML, CSS, JavaScript, React, Node, Express, and SQL",
+        school: "Brooklyn College",
+        degree: "Bachelor's in Education and Computer Science",
+        description1: "",
       },
       {
-        school: "Brooklyn College",
-        degree: "Bachelors of Arts in Childhood Education",
-        graduated: "May 2020",
-        description1: "",
+        school: "Bloom Institute of Technology",
+        degree: "Full Stack Web Development",
+        description1:
+          "Intensive Full Stack Web Development program with a focus on HTML, CSS, JavaScript, React, Node, Express, and SQL",
       },
     ],
     work: [
       {
-        company: "New York City Department of Education",
-        title: "Teacher",
-        years: "September 2019 - June 2020",
-        description1:
-        "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
-        description2:
-        "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
-        description3:
-        "Increased reading and math test scores for all students by 25% over one school year",
-        description4:
-        "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
+        company: "Democracy Prep Public Schools",
+        title: "Lead Software Engineer",
+        years: "May 2022 - Present",
+        // description1:
+        // "Processed over 100 vouchers weekly in PeopleSoft/Oracle Software for Tax Levy accounts",
+        // description2:
+        // "Ensured payments including invoices and expense reports were processed in a timely and accurate manner",
+        // description3:
+        //   "Created spreadsheets in Microsoft Excel for 50+ accounts to increase payment efficiency",
+        // description4:
+        //   "Communicated with purchasing department and vendor to resolve billing issues and discrepancies",
       },
       {
-        company: "Brooklyn College",
-        title: "Accounts Payable Specialist",
-        years: "January 2016 - March 2019",
-        description1:
-        "Processed over 100 vouchers weekly in PeopleSoft/Oracle Software for Tax Levy accounts",
-        description2:
-        "Ensured payments including invoices and expense reports were processed in a timely and accurate manner",
-        description3:
-          "Created spreadsheets in Microsoft Excel for 50+ accounts to increase payment efficiency",
-        description4:
-          "Communicated with purchasing department and vendor to resolve billing issues and discrepancies",
+        company: "JPMorgan Chase & Co.",
+        title: "Software Engineer, Associate",
+        years: "January 2020 - May 2022",
+        // description1:
+        // "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
+        // description2:
+        // "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
+        // description3:
+        // "Increased reading and math test scores for all students by 25% over one school year",
+        // description4:
+        // "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
       },
     ],
   },
