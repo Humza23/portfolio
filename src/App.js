@@ -38,8 +38,8 @@ const resumeData = {
       "Here you can create a short write-up of your skills to show off to employers",
     education: [
       {
-        school: "Brooklyn College",
-        degree: "Bachelor's in Education and Computer Science",
+        school: "Brooklyn College, City University of New York",
+        degree: "Bachelor of Science, Computer Science | Bachelor of Arts, Childhood Education",
         description1: "",
       },
       {
@@ -66,7 +66,7 @@ const resumeData = {
       {
         company: "JPMorgan Chase & Co.",
         title: "Software Engineer, Associate",
-        years: "January 2020 - May 2022",
+        years: "January 2021 - May 2022",
         // description1:
         // "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
         // description2:
