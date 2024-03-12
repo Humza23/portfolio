@@ -3,7 +3,6 @@ import projectHRFAsylum from "../images/projectHRFAsylum.png";
 import projectWeather from "../images/projectWeather.png";
 import projectBeachResort from "../images/projectBeachResort.png";
 import projectCryptoTracker from "../images/projectCryptoTracker.png";
-import projectEcommercePlants from "../images/projectEcommercePlants.png";
 import projectBusinessPageTemplate from "../images/projectBusinessPageTemplate.png";
  
 const imgArr = [
@@ -33,13 +32,6 @@ const imgArr = [
     title: "Crypto Tracker",
     url: "https://humza23.github.io/crypto-tracker/",
     description: "Track Crypto prices with dark mode!",
-  },
-  {
-    image: projectEcommercePlants,
-    title: "E-Commerce",
-    url: "https://humza23.github.io/e-commerce-plants/",
-    description:
-      "Mock E-Commerce Application with add to cart and checkout features!",
   },
   {
     image: projectBusinessPageTemplate,

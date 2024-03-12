@@ -12,7 +12,7 @@ const resumeData = {
     name: "Humza Malik",
     occupation: "Software Engineer",
     image: "profilepic.jpg",
-    bio: "Highly skilled and results-driven Full Stack Software Engineer with a proven track record of designing, developing, and deploying innovative web applications and systems. Adept at both front-end and back-end development, I bring a holistic approach to software engineering, ensuring seamless user experiences and robust system functionality. With a strong foundation in multiple programming languages, frameworks, and technologies, I excel in creating scalable and efficient solutions that meet and exceed client and end-user expectations.",
+    bio: "As a Software Engineer in Education, I leverage my skills in React.js, Node.js, Python, and SQL to create and enhance applications and systems that support the educational needs of students and teachers. With a dual degree in Computer Science and Childhood Education from Brooklyn College, and a certification in Full Stack Web Development from BloomTech, I bring a unique combination of technical expertise and pedagogical knowledge to software engineering.",
     contactmessage: "Contact Me",
     email: "humza.m97@outlook.com",
     phone: "917-856-8055",
@@ -39,7 +39,8 @@ const resumeData = {
     education: [
       {
         school: "Brooklyn College, City University of New York",
-        degree: "Bachelor of Science, Computer Science | Bachelor of Arts, Childhood Education",
+        degree:
+          "Bachelor of Science, Computer Science | Bachelor of Arts, Childhood Education",
         description1: "",
       },
       {
@@ -52,7 +53,7 @@ const resumeData = {
     work: [
       {
         company: "Democracy Prep Public Schools",
-        title: "Lead Software Engineer",
+        title: "Software Engineer",
         years: "May 2022 - Present",
         // description1:
         // "Processed over 100 vouchers weekly in PeopleSoft/Oracle Software for Tax Levy accounts",
