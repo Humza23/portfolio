@@ -10,15 +10,15 @@ import Portfolio from "./Components/Portfolio";
 const resumeData = {
   main: {
     name: "Humza Malik",
-    occupation: "Software Engineer",
+    occupation: "IT Auditor and Full Stack Engineer",
     image: "profilepic.jpg",
-    bio: "As a Software Engineer in Education, I leverage my skills in React.js, Node.js, Python, and SQL to create and enhance applications and systems that support the educational needs of students and teachers. With a dual degree in Computer Science and Childhood Education from Brooklyn College, and a certification in Full Stack Web Development from BloomTech, I bring a unique combination of technical expertise and pedagogical knowledge to software engineering.",
+    bio: "Proficient IT Auditor and Full Stack Engineer with a proven track record blending expertise in IT system audits with robust web development skills. Adept at enhancing system efficiencies and security, alongside designing and implementing comprehensive web solutions. Demonstrates strong analytical abilities and technical acumen, ensuring both risk mitigation and innovative problem-solving. Known for a collaborative approach, keen problem-solving skills, and the ability to align technical projects with business objectives.",
     contactmessage: "Contact Me",
     email: "humza.m97@outlook.com",
     phone: "917-856-8055",
     address: {
-      city: "Brooklyn",
-      state: "New York",
+      city: "New York",
+      state: "NY",
     },
     social: [
       {
@@ -53,29 +53,18 @@ const resumeData = {
     work: [
       {
         company: "Democracy Prep Public Schools",
-        title: "Software Engineer",
+        title: "Lead Software Engineer",
         years: "May 2022 - Present",
-        // description1:
-        // "Processed over 100 vouchers weekly in PeopleSoft/Oracle Software for Tax Levy accounts",
-        // description2:
-        // "Ensured payments including invoices and expense reports were processed in a timely and accurate manner",
-        // description3:
-        //   "Created spreadsheets in Microsoft Excel for 50+ accounts to increase payment efficiency",
-        // description4:
-        //   "Communicated with purchasing department and vendor to resolve billing issues and discrepancies",
+      },
+      {
+        company: "KPMG",
+        title: "Advisory, IT Audit and Assurance Senior Associate",
+        years: "September 2019 - April 2022",
       },
       {
         company: "JPMorgan Chase & Co.",
-        title: "Software Engineer, Associate",
-        years: "January 2021 - May 2022",
-        // description1:
-        // "Prepared and executed differentiated lesson plans for a classroom of up to 30 students",
-        // description2:
-        // "Fostered a classroom environment conducive to learning and promoting excellent student engagement",
-        // description3:
-        // "Increased reading and math test scores for all students by 25% over one school year",
-        // description4:
-        // "Developed plans to facilitate interactive learning experiences and accommodate the academic needs of students",
+        title: "SOX and CCAP Governance Associate",
+        years: "November 2017 - July 2019",
       },
     ],
   },

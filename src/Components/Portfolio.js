@@ -3,7 +3,7 @@ import projectHRFAsylum from "../images/projectHRFAsylum.png";
 import projectWeather from "../images/projectWeather.png";
 import projectBeachResort from "../images/projectBeachResort.png";
 import projectCryptoTracker from "../images/projectCryptoTracker.png";
-import projectBusinessPageTemplate from "../images/projectBusinessPageTemplate.png";
+// import projectBusinessPageTemplate from "../images/projectBusinessPageTemplate.png";
  
 const imgArr = [
   {
@@ -33,12 +33,12 @@ const imgArr = [
     url: "https://humza23.github.io/crypto-tracker/",
     description: "Track Crypto prices with dark mode!",
   },
-  {
-    image: projectBusinessPageTemplate,
-    title: "Business Page Template",
-    url: "https://humza23.github.io/business-page-template/",
-    description: "Use this template to advertise your business!",
-  },
+  // {
+  //   image: projectBusinessPageTemplate,
+  //   title: "Business Page Template",
+  //   url: "https://humza23.github.io/business-page-template/",
+  //   description: "Use this template to advertise your business!",
+  // },
 ];
 
 class Portfolio extends Component {
