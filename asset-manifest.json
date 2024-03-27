@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.bd9fd2c6.js",
+    "main.js": "/static/js/main.0f7d55e1.js",
     "static/media/projectBeachResort.png": "/static/media/projectBeachResort.37d6b6e05e5a2e248a67.png",
     "static/media/projectWeather.png": "/static/media/projectWeather.4a605aa03316437bab4f.png",
     "static/media/profilepic.jpg": "/static/media/profilepic.f5cabab3d8b6969c1963.jpg",
@@ -19,10 +19,10 @@
     "index.html": "/index.html",
     "static/media/logoHTML.svg": "/static/media/logoHTML.ed5a66323fb7466700b1b551dcf00ea5.svg",
     "static/media/logoGit.svg": "/static/media/logoGit.6d27b5e0cde4ddb87e031ca706aa8350.svg",
-    "main.bd9fd2c6.js.map": "/static/js/main.bd9fd2c6.js.map"
+    "main.0f7d55e1.js.map": "/static/js/main.0f7d55e1.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.bd9fd2c6.js"
+    "static/js/main.0f7d55e1.js"
   ]
 }
